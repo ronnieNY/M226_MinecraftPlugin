@@ -1,0 +1,11 @@
+main: tbz.m226.mcplugin.Main
+name: MinecraftPlugin
+version: 1.0
+author: Ronnie
+description: The best minecraft plugin!
+commands:
+  mycommand:
+    description: An example command
+    usage: /mycommand
+    permission: mcplugin.mycommand
+    permission-message: You don't have the mcplugin.mycommand permission.
